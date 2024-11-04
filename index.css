@@ -1,0 +1,22 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* 消除浏览器默认样式*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: beige;
+    position: relative;
+}
+#poker{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    filter: drop-shadow(5px 5px 10px #9e9e9e);
+}
